@@ -39,6 +39,10 @@ ipdb==0.13.13
 pytorch-metric-learning==2.4.1                         # For one-shot action recognition
 smplx[all]==0.1.28                                      # For mesh recovery
 
+tensorflow                                              # For TreeSketchNet
+tensorflow-addons                                       # For TreeSketchNet
+keras_cv_attention_models
+
 --extra-index-url "https://download.pytorch.org/whl/cu118"
 torch
 torchvision
