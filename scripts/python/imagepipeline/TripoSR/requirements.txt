@@ -8,3 +8,4 @@ rembg
 huggingface-hub
 imageio[ffmpeg]
 gradio
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
